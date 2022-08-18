@@ -1,8 +1,9 @@
 //import Entry from "../Entry";
-//import * from "./Components/CustomButton/CustomButton";
+import CustomButton from "../CustomButton/CustomButton";
 
 
 const DisplayPosts = (props) => {
+    
     return ( 
         // <tbody>
         //     {props.entries.map(entry => <tr><Post /></tr>)}
@@ -11,18 +12,18 @@ const DisplayPosts = (props) => {
         <table className="table">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Post</th>
+                    {/* <th>Name</th>
+                    <th>Post</th> */}
                 </tr>
             </thead>
             <tbody>
                 {props.entries.map((entry) => {
                     return (
-                        <tr>
-                            <td>{entry.name}</td>
-                            <td>{entry.post}</td>
-                            <td><button tyep="submit" className="buttonClass">Like</button><button>Dislike</button></td>
-                        </tr>
+                        <div>
+                            <div>{entry.name}</div>
+                            <div>{entry.post}</div>
+                            <div><CustomButton /></div>
+                        </div>
                     );
                 })}
             </tbody>

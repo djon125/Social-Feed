@@ -24,7 +24,7 @@ const CreatPost = (props) => {
             </div>
             <div>
                 <label>Post: </label>
-                <textarea type="text" value={post} onChange={(event) => setPost(event.target.value)}></textarea>
+                <textarea rows="3" cols="45" type="text" value={post} onChange={(event) => setPost(event.target.value)}></textarea>
             </div>
             <button type='submit'>Create</button>
         </form>

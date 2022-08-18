@@ -1,24 +1,25 @@
 
 .like{
     background-color: green;
+    width: 45px;
+    height: 22px;
 }
 
 .inactive{
     background-color: gray;
+    width: 45px;
+    height: 22px;
 }
 
 .dislike{
     background-color: red;
+    width: 45px;
+    height: 22px;
 }
 
 .active{
     background-color: blueviolet;
+    width: 45px;
+    height: 22px;
 }
 
-
-/* .block{
-    height: 2000px;
-    width: 1000px;
-    border: none;
-
-} */
