@@ -10,3 +10,15 @@
 .dislike{
     background-color: red;
 }
+
+.active{
+    background-color: blueviolet;
+}
+
+
+/* .block{
+    height: 2000px;
+    width: 1000px;
+    border: none;
+
+} */

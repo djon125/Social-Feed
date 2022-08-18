@@ -1,5 +1,5 @@
 //import Entry from "../Entry";
-//import CustomButton from "./CustomButton";
+//import * from "./Components/CustomButton/CustomButton";
 
 
 const DisplayPosts = (props) => {
@@ -21,7 +21,7 @@ const DisplayPosts = (props) => {
                         <tr>
                             <td>{entry.name}</td>
                             <td>{entry.post}</td>
-                            <td><button className="buttonClass">Like</button><button>Dislike</button></td>
+                            <td><button tyep="submit" className="buttonClass">Like</button><button>Dislike</button></td>
                         </tr>
                     );
                 })}

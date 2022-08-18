@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import "../../App.css"
 
-
 const CustomButton = (props) => {
-
+    const [buttonClass, setButtonClass] = useState("inactive");
     
-    const [buttonClass, setButtonClass] = useState('inactive');
-
     function handleClick(){
         if(buttonClass === "inactive"){
             setButtonClass('active');
@@ -15,10 +12,13 @@ const CustomButton = (props) => {
             setButtonClass('inactive');
         }
     }
-        return (
-            <div>
-                <button className={buttonClass} onclick={handleClick}>{props.message}</button>
-            </div>
-        )
-
+    return ( 
+            <>
+                <button type="submit"sytle={{height: '1em'}} className={buttonClass} onClick={handleClick}>{props.message}</button>
+            </>
+     );
 }
+ 
+export default CustomButton;
+
+
