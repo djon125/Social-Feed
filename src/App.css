@@ -30,18 +30,15 @@
 .table {
     margin-left: 50%;
     margin-right: 50%; 
-    /* background-color: rgba(188, 245, 226, 0.858)
+    background-color: rgba(188, 245, 226, 0.858)
 }
 
 
 
-*{
-    /* background-color: rgba(188, 245, 226, 0.858); */
-    
-}
+
 
 h1 {
-    background-color: aliceblue; 
+    background-color: white; 
     padding: 36px;
     margin: auto;
     margin-bottom: 50px;
@@ -50,7 +47,7 @@ h1 {
     margin-top: -20px;
 }
 .text-muted {
-    background-color: aliceblue; 
+    background-color: white; 
 }
 
 .form-group {
@@ -72,19 +69,52 @@ ul {
     list-style: none;
     border-style: solid;
     border-color: #918f8f;
-    border-radius: 6px;
+    border-radius: 11px;
     background-color: white;
     margin-left: 215px;
     margin-right: 217px;
 }
 
 body {
-    background-color: #eff7fe52;
+    background-color: #7fffd430;
 }
 
 li {
     border-bottom: 5px solid #1a191970;
     border-bottom-width: medium;
     word-wrap: break-word;
+    padding: 6px;
 }
 
+
+
+.button {
+    margin: 1em;
+    background-color: #2525e2fe;
+    /* position: relative; */
+    right: -396px;
+    color: white;
+}
+
+.bottom-part {
+    list-style: none;
+    border-style: solid;
+    border-color: #918f8f;
+    border-radius: 11px;
+    background-color: white;
+    margin-left: 215px;
+    margin-right: 217px;
+    padding: 12px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.text-muted {
+    color: gray;
+}
