@@ -5,12 +5,14 @@ const CreatPost = (props) => {
     
     const [name, setName] = useState('');
     const [post, setPost] = useState('');
+    const [date, setDate] = useState('');
 
     function handleSubmit(event) {
         event.preventDefault();
         let newEntry = {
             name: name,
-            post: post
+            post: post,
+            date: date
         };
         console.log(newEntry);
         props.addNewEntry(newEntry);
@@ -20,11 +22,15 @@ const CreatPost = (props) => {
         <form classname="entryPost" onSubmit={handleSubmit}>
             <div className='form-group'>
                 <label>Name: </label>
-                <input className="form-control" type="text" value={name} onChange={(event) => setName(event.target.value)}></input><br></br>
+                <input className="form-control" type="text" value={name} onChange={(event) => setName(event.target.value)} /><br></br>
             </div>
             <div>
                 <label>Post: </label>
-                <textarea className="form-control" rows="4" cols="40" type="text" value={post} onChange={(event) => setPost(event.target.value)}></textarea> <button className='button' style={{margin: '1em'}} type='submit'>Create</button>
+                <textarea className="form-control" rows="4" cols="40" type="text" value={post} onChange={(event) => setPost(event.target.value)} /> 
+            </div>
+            <div>
+                <label>Date: </label>
+                <input type='date' value={date} onChange={(event) => setDate(event.target.value)} /> <button className='button' style={{margin: '1em'}} type='submit'>Create</button>
             </div>
         </form>
      );
