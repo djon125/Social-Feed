@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import CreatPost from './Components/CreatePost/CreatPost';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts';
-import CustomButton from './Components/CustomButton/CustomButton';
 import "./App.css";
 
 
@@ -19,13 +18,12 @@ function App() {
   return (
     <div>
       <h1>Social
-      <small className='text-muted'>Tracker</small></h1>
-      <CreatPost addNewEntry={addNewEntry}/>
-      <DisplayPosts entries={entries}/>
-      <div className='block'>
-        <CustomButton />
+      <small className='text-muted'>Feed</small></h1>
+      <div className='bottom-part'>
+        <CreatPost addNewEntry={addNewEntry} /*className="container-fluid"*//>
       </div>
 
+      <DisplayPosts entries={entries} /*className="border-box"*//>
       
     </div>
   );

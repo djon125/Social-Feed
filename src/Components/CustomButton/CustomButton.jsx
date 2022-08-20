@@ -25,10 +25,11 @@ const CustomButton = (props) => {
     }
 
     return ( 
-            <>
-                <button type="submit" className={buttonClass} onClick={handleClick}>Up</button>
-                <button type="submit" className={buttonClassDislike} onClick={handleClickDislike}>Down</button>
-            </>
+        <>    
+            <button type="submit" className={buttonClass} onClick={handleClick}>LIKE</button>
+
+            <button type="submit" className={buttonClassDislike} onClick={handleClickDislike}>DISLIKE</button>
+        </>
      );
 }
  

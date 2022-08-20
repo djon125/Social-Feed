@@ -1,13 +1,18 @@
-import React, { useState } from 'react';
+//import React, { useState } from "react";
+import CustomButton from "../CustomButton/CustomButton";
+
+
 
 const Entry = (props) => {
-    return ( 
-        <>
-            <td>{props.entry.name}</td>
-            <td>{props.entry.post}</td>
-        </>
-        
-     );
-}
- 
+  return (
+    <div>
+      <div className="name">{props.entry.name}</div>
+      <div className="post">{props.entry.post}</div>
+      <div className="custom">
+        <CustomButton />
+      </div>
+    </div>
+  );
+};
+
 export default Entry;

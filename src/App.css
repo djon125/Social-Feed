@@ -1,25 +1,90 @@
 
 .like{
     background-color: green;
-    width: 45px;
+    width: 80px;
     height: 22px;
 }
 
 .inactive{
-    background-color: gray;
-    width: 45px;
+    background-color: gainsboro;
+    width: 80px;
     height: 22px;
 }
 
 .dislike{
     background-color: red;
-    width: 45px;
+    width: 80px;
     height: 22px;
 }
 
-.active{
-    background-color: blueviolet;
-    width: 45px;
-    height: 22px;
+
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+.table {
+    margin-left: 50%;
+    margin-right: 50%; 
+    /* background-color: rgba(188, 245, 226, 0.858)
+}
+
+
+
+*{
+    /* background-color: rgba(188, 245, 226, 0.858); */
+    
+}
+
+h1 {
+    background-color: aliceblue; 
+    padding: 36px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+.text-muted {
+    background-color: aliceblue; 
+}
+
+.form-group {
+    padding-bottom: 10px;
+}
+
+.bottom-part {
+    margin-left: 20%;
+}
+
+
+.custom {
+    margin-left: 75%;
+    display: flex;
+    margin-top: 12px;
+}
+
+ul {
+    list-style: none;
+    border-style: solid;
+    border-color: #918f8f;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 215px;
+    margin-right: 217px;
+}
+
+body {
+    background-color: #eff7fe52;
+}
+
+li {
+    border-bottom: 5px solid #1a191970;
+    border-bottom-width: medium;
+    word-wrap: break-word;
 }
 
