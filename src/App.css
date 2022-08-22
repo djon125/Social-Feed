@@ -3,18 +3,21 @@
     background-color: green;
     width: 80px;
     height: 22px;
+    border-radius: 14px;
 }
 
 .inactive{
     background-color: gainsboro;
     width: 80px;
     height: 22px;
+    border-radius: 14px;
 }
 
 .dislike{
     background-color: red;
     width: 80px;
     height: 22px;
+    border-radius: 14px;
 }
 
 
@@ -45,6 +48,7 @@ h1 {
     margin-left: -10px;
     margin-right: -20px;
     margin-top: -20px;
+   
 }
 .text-muted {
     background-color: white; 
@@ -77,6 +81,7 @@ ul {
 
 body {
     background-color: #7fffd430;
+    font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 li {
@@ -90,10 +95,11 @@ li {
 
 .button {
     margin: 1em;
-    background-color: #2525e2fe;
+    background-color: #3939e4;
     /* position: relative; */
     right: -396px;
     color: white;
+    border-radius: 30px;
 }
 
 .bottom-part {
@@ -117,4 +123,7 @@ li {
 
 .text-muted {
     color: gray;
+}
+.date {
+    border-radius: 5px;
 }

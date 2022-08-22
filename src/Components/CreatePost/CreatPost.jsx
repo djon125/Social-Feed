@@ -30,7 +30,7 @@ const CreatPost = (props) => {
             </div>
             <div>
                 <label>Date: </label>
-                <input type='date' value={date} onChange={(event) => setDate(event.target.value)} /> <button className='button' style={{margin: '1em'}} type='submit'>Create</button>
+                <input className="date" type='date' value={date} onChange={(event) => setDate(event.target.value)} /> <button className='button' style={{margin: '1em'}} type='submit'>Create</button>
             </div>
         </form>
      );
